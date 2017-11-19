@@ -1,0 +1,14 @@
+.cls-1 {
+    fill: #fff;
+    stroke: #13758c;
+    stroke-miterlimit: 10;
+    stroke-width: 5px;
+}
+
+.cls-2, .cls-3 {
+    fill: #13758c;
+}
+
+.cls-3 {
+    fill-rule: evenodd;
+}

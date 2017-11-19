@@ -10,6 +10,7 @@ import {HomeComponent} from './components/home/home.component';
 import {FetchDataComponent} from './components/fetchdata/fetchdata.component';
 import {CounterComponent} from './components/counter/counter.component';
 import {DashboardComponent} from './components/dashboard/dashboard.component';
+import {SvgSpritesComponent} from './components/svg-sprites/svg-sprites.component';
 
 @NgModule({
     declarations: [
@@ -18,7 +19,8 @@ import {DashboardComponent} from './components/dashboard/dashboard.component';
         CounterComponent,
         FetchDataComponent,
         HomeComponent,
-        DashboardComponent
+        DashboardComponent,
+        SvgSpritesComponent
     ],
     imports: [
         CommonModule,
@@ -28,6 +30,7 @@ import {DashboardComponent} from './components/dashboard/dashboard.component';
             {path: '', redirectTo: 'home', pathMatch: 'full'},
             {path: 'home', component: HomeComponent},
             {path: 'dashboard', component: DashboardComponent},
+            {path: 'svg-sprites', component: SvgSpritesComponent},
             {path: 'counter', component: CounterComponent},
             {path: 'fetch-data', component: FetchDataComponent},
             {path: '**', redirectTo: 'home'}
